@@ -1,0 +1,34 @@
+<div class="container">
+  <h1>Musician detail</h1>
+
+  <form novalidate="novalidate" class="form-horizontal">
+    <div class="control-group">
+      <label class="control-label" for="inputFirstName">First name:</label>
+
+      <div class="controls">
+        <input type="text" id="inputFirstName" ng-model="musician.firstName"/>
+      </div>
+    </div>
+    <div class="control-group">
+      <label class="control-label" for="inputLastName">Last name:</label>
+
+      <div class="controls">
+        <input type="text" id="inputLastName" ng-model="musician.lastName"/>
+      </div>
+    </div>
+	<div class="control-group">
+      <label class="control-label" for="instrument">Instrument:</label>
+
+      <div class="controls">
+        <input type="text" id="instrument" ng-model="musician.instrument"/>
+      </div>
+    </div>
+	</br>
+    <div class="control-group">
+      <div class="controls">
+         <a ng-click="updateMusician()" class="btn btn-small btn-primary">update musician</a>
+         <a ng-click="cancel()" class="btn btn-small btn-primary">cancel</a>
+      </div>
+    </div>
+  </form>
+</div>

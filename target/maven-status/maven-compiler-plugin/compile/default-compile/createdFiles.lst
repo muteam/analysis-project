@@ -1,0 +1,4 @@
+com\muteam\thetask\controller\MyController.class
+com\muteam\thetask\dao\MusicianRepository.class
+com\muteam\thetask\model\Musician.class
+com\muteam\thetask\dao\impl\MusicianRepositoryImpl.class
