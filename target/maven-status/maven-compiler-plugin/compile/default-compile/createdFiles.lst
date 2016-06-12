@@ -1,4 +1,4 @@
-com\muteam\thetask\controller\MyController.class
-com\muteam\thetask\dao\MusicianRepository.class
-com\muteam\thetask\model\Musician.class
-com\muteam\thetask\dao\impl\MusicianRepositoryImpl.class
+com\muteam\analysis\project\dao\ProductRepository.class
+com\muteam\analysis\project\controller\MyController.class
+com\muteam\analysis\project\dao\impl\ProductRepositoryImpl.class
+com\muteam\analysis\project\model\Product.class

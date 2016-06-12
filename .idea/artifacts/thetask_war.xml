@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" name="thetask:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
+    <output-path>$PROJECT_DIR$/../crud-angular-spring/target</output-path>
     <root id="archive" name="thetask.war">
       <element id="artifact" artifact-name="thetask:war exploded" />
     </root>

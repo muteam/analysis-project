@@ -1,9 +1,8 @@
-CREATE DATABASE the_task;
+CREATE DATABASE analysis_project;
 
 CREATE TABLE Musician
 (
 id varchar (36) PRIMARY KEY,
-LastName varchar(64),
-FirstName varchar(64),
-Instrument varchar(64)
+ProductName varchar(64),
+Revenue INTEGER
 );
